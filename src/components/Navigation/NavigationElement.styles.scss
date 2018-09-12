@@ -1,0 +1,13 @@
+@import '../../resources/scss/settings/settings';
+$primary-color: #ff0000 !default;
+
+
+:host {
+    display: inline-block;
+    
+    a {
+        text-decoration: none;
+        color: $primary-color;
+    }
+}
+

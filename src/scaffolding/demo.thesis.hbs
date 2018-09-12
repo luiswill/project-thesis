@@ -1,0 +1,32 @@
+<div class="section">
+	<section>
+		<div class="row row--reducedWidth">
+			<x-navigation data-resources="[{paths: ['components/Navigation/index.js']}]">
+				<x-navelement href="#">Link 1</x-navelement>
+				<x-navelement href="https://google.com">Link 2</x-navelement>
+			</x-navigation>
+		</div>
+
+        <div class="row row--reducedWidth">
+			<x-headline headlineText="test"></x-headline>
+            <x-teaser id="image" data-resources="[{paths: ['components/Teaser/index.js']}]">
+           		<x-headline underlined="true">First headline</x-headline>
+				<x-text>This is a random text in a teaser</x-text>
+				<x-image imageLink="https://via.placeholder.com/350x150" width="200"></x-image>
+			</x-teaser>
+			<x-teaser data-resources="[{paths: ['components/Teaser/index.js']}]">
+           		<x-headline>Second headline</x-headline>
+				<x-text>This random text is per default colored in green.</x-text>
+				<x-image imageLink="https://via.placeholder.com/350x150"></x-image>
+			</x-teaser>
+			<x-teaser data-resources="[{paths: ['components/Teaser/index.js']}]">
+           		<x-headline>Third headline</x-headline>
+				<x-text>A medium long text to fill the teaser. This text is intended to have some content in the page.</x-text>
+				<x-image imageLink="https://via.placeholder.com/350x150"></x-image>
+			</x-teaser>
+        </div>
+	</section>
+</div>
+
+
+<home-select data-resources="[{paths: ['components/Slider/home.js']}]" whatever="sadf"></home-select>

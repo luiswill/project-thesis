@@ -1,0 +1,21 @@
+@import '../../resources/scss/settings/settings';
+
+.navigation {
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+
+    nav {
+        display: inline-block;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-left: 100px;
+    }
+
+    &__logo {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
