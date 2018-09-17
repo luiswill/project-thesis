@@ -20,6 +20,7 @@ export class XTeaser extends BioElement<any, any> {
     render() {
         this.html`
             <link rel="stylesheet" type="text/css" href="resources/components/Teaser/Teaser.styles.css">
+            <link rel="stylesheet" type="text/css" href="resources/css/vendor/normalize.css">
             <h1>Teaser</h1>
             <x-text><slot></slot></x-text>
         `;
